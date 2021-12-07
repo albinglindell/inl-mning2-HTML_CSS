@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200&display=swap" rel="stylesheet">
+<!-- slut på fonts -->
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <header class="header"><div class="logo"></div>
+    <header class="header">
+        <div class="logo"><img src="logo.svg" alt=""></div>
     <h1 class="huvudrubrik">Tillgänglighet</h1>
     <div class="hamburger-container">
         <div class="line1"></div>
@@ -17,46 +27,75 @@
 </header>
 <nav class="nav-box">
     <div class="nav-text-container">
-    <a href="#">Livet</a>
-    <a href="#">Webben</a>
-    <a href="#">Övrigt</a>
+        <a href="#article1">Förord</a>
+        <a href="#article2">Webben</a>
+        <a href="#article3">Livet</a>
     </div>
 </nav>
     <main class="main-content">
-        <article class="article1">
-            <h2 class="article-rubrik">rubrik 1</h2>
-            <img src="https://bioritmefestival.org/wp-content/uploads/2017/11/img-test.png" alt="#">
-            <h3 class="underrubrik">underrubrik</h3>
+        <article class="article1" id="article1" tabindex="1"> 
+            <div class="bild-container">
+            <h2 class="article-rubrik">Förord</h2>
+            <img src="./img/tillgänglihet.png" alt="#">
+        </div>
+            <div class="text-container">
+            <h3 class="underrubrik">Allmänn tillgänglighet</h3>
             <div class="underlinje"></div>
             <div class="textarea">
-                <p class="factparagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam provident corporis deleniti itaque voluptates ut magni asperiores quis eligendi tempora iusto eaque libero fuga expedita consequuntur ea, doloremque officiis nulla unde necessitatibus dolorem corrupti! Eius, totam expedita soluta enim maiores ex officia sint illum minus ipsa neque corporis quia aut!</p>
+                <p class="factparagraph">Tillgänglighet handlar om hur samhället är utformat. Ett bra tillgängligt samhälle är utformat på ett sätt så att alla kan ta del av det utan onödiga svårigheter som tillexempel en person som inte kan gå ska kunna ta hissen eller någon som inte kan se ska kunna höra sig fram.</p>
             </div>
-            <div class="underlinje"></div>
+        </div>
+            
         </article>
-        <article class="article2">
-            <h2 class="article-rubrik">rubrik 2</h2>
-            <img src="https://bioritmefestival.org/wp-content/uploads/2017/11/img-test.png" alt="#">
-            <h3 class="underrubrik">underrubrik</h3>
+        <article class="article2" id="article2" tabindex="2">
+            <div class="bild-container">
+            <h2 class="article-rubrik">Webben</h2>
+            <img src="./img/viktor.jpg" alt="#">
+            </div>
+            <div class="text-container">
+            <h3 class="underrubrik">Tillgänglighet på webben</h3>
             <div class="underlinje"></div>
             <div class="textarea">
-                <p class="factparagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam provident corporis deleniti itaque voluptates ut magni asperiores quis eligendi tempora iusto eaque libero fuga expedita consequuntur ea, doloremque officiis nulla unde necessitatibus dolorem corrupti! Eius, totam expedita soluta enim maiores ex officia sint illum minus ipsa neque corporis quia aut!</p>
+                <p class="factparagraph">
+                    Tillgänglighet på webben betyder att man bygger webbplatser och digitala tjänster på så sätt att innehållet av webbinnehåll är anpassat för att alla människor i samhället ska kunna ta del av informationen  oavsett om man har någon typ av funktionsvariation.
+                </p>
+                <div class="list-container">
+                <h4>5 exempel på tillgänglighet:</h4>
+                <ul>
+                    <li>Kontrast</li>
+                    <li>Större bokstäver</li>
+                    <li>Navigering med tangentborden</li>
+                    <li>lyssna funktion</li>
+                    <li>textade direktsändningar</li>
+                </ul>
             </div>
-            <div class="underlinje"></div>
+            </div>
+            
+            </div>
         </article>
-        <article class="article3">
-            <h2 class="article-rubrik">rubrik 3</h2>
-            <img src="https://bioritmefestival.org/wp-content/uploads/2017/11/img-test.png" alt="#">
-            <h3 class="underrubrik">underrubrik</h3>
+        <article class="article3" id="article3" tabindex="3">
+            <div class="bild-container">
+            <h2 class="article-rubrik">Livet</h2>
+            <img src="./img/puffutbildningcp400x250.jpg" alt="#">
+            </div>
+            <div class="text-container">
+            <h3 class="underrubrik">Tillgänglighet i livet</h3>
             <div class="underlinje"></div>
             <div class="textarea">
-                <p class="factparagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam provident corporis deleniti itaque voluptates ut magni asperiores quis eligendi tempora iusto eaque libero fuga expedita consequuntur ea, doloremque officiis nulla unde necessitatibus dolorem corrupti! Eius, totam expedita soluta enim maiores ex officia sint illum minus ipsa neque corporis quia aut!</p>
+                <p class="factparagraph">Tillgänglighet i livet betyder att man bygger och ser till att folk med funktionsvariation kan ta sig igenom dagen utan onödiga svårigheter som tillexempel en person som sitter i rullstol ska kunna åka hiss eller någon blind person ska kunna känna sig fram till tåget utan att ramla ner på spåret. <br> Det är lätt för folk utan funktionsvariation att inte tänka så mycket på det lätta i vardagen som för andra är det svåraste hindret under dagen.</p>
             </div>
-            <div class="underlinje"></div>
+            </div>
         </article>
-        <footer class="footer">
-            <p class="footertext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis nobis totam, officiis reiciendis quaerat illum dicta ratione atque culpa repudiandae accusamus, vitae eligendi alias?</p>
-        </footer>
     </main>
-
+    <footer class="footer">
+        <nav class="footernav">
+            <h5 class="footer-text">Här kan du läsavidare om tillgänglighet:</h5>
+            <ul>
+                <li><a href="https://www.mfd.se/kunskap/ett-samhalle-for-alla/oka-tillgangligheten-i-samhallet/" target="_black">Tillgänglighet i sammhället</a></li>
+                <li><a href="http://www.w3c.se/resources/office/translations/wai/intro/accessibility.html" target="_black">Tillgänglighet på webben</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
 </body>
 </html>
