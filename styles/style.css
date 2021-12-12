@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
 }
 
-p, a, h2, h3, h4, h5, h6 {
+p, a, h2, h3, h4, h5, h6, li {
   font-family: 'Heebo', sans-serif, serif;
 }
 
