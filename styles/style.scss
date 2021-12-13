@@ -189,6 +189,7 @@ header{
         ul{
             width: 70%;
             li{
+                @include flex(column, space-around, center);
                 list-style-type: none;
                 margin: 15px 0;
                 a{
